@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container-fluid"><!--aquí inicia el cotainer-->
+        <header> <!--Seccion de todo app-->
+            <div class="row gris">
+                <div class="col-xs-12 text-center">
+                    <h1>
+                        TODO APP
+                    </h1>
+                </div>
+            </div>
+        </header><!--termina seccion de todo app-->
+        <section> <!--text area-->
+            <div class="row">
+                <div class="col-xs-12">
+                    <textarea name="textarea" id="textarea" placeholder="Añade tu nueva tarea"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary fa fa-plus" id="boton">
+                    <b> Agregar</b>
+                </button>
+            </div>
+        </section> <!--text area-->
+        <section>
+            <div class="row">
+                <div class="col-xs-12 pre-scrollable" id="scroll">
+                    <ul id="lista">
+                        
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div><!--Aquí termina el container-->
+<!-- no tocar los scripts   -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

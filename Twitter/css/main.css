@@ -1,0 +1,32 @@
+.gris{
+    background: linear-gradient(white, lightgrey);
+}
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 12em;
+    min-height: 12em;
+    border: .1em solid black;
+    margin-top: 5%;
+}
+button{
+    margin: 3% ;
+}
+#scroll{
+    height: 25em;
+    margin-top: 5%;
+}
+span{
+    position: absolute;
+    right: 15px;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-left: -9%;
+    position: relative;
+}
+.tashe{
+    text-decoration:  line-through;
+}
