@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Trello</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="js/main.js">
+</head>
+<body>
+<!--  1. Un elemento en el HTML con el mensaje "Añadir una lista", que al dar click muestre un input y un botón (formulario) para que el usuario ingrese el nombre de la lista.-->
+  
+<!-- 2. Mostrar en el HTML, el texto ingresado al dar click en el botón de "Guardar" del formulario (como si fuera título de la lista). Debajo del título, mostrar el mensaje clickeable de "Añadir una tarjea".-->
+
+  <div class="container">
+    <div class="row margen">
+      <div class="col-xs-12 text-center">
+        <button type="button" id="anadir" class="btn btn-primary btn-lg" onclick="hacerLista()">Añadir lista</button>
+      </div>
+    </div>
+    <div class="row margen">
+     <div class="col-xs-12">
+       <div id="div">
+
+       </div>
+     </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-6 col-md-4" id="contenido">
+        
+      </div>
+    </div>
+  </div> <!-- Termina el container-->
+<!--  No tocar los scripts-->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

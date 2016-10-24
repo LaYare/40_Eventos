@@ -1,7 +1,7 @@
 var lista = document.getElementById('lista');
 var li = document.createElement('li');
     li.className = 'gris';
-    li.addEventListener('clic',eliminar);
+    li.addEventListener('click',eliminar);
 var textarea = document.getElementById('textarea');
 var boton = document.getElementById('boton');
     boton.addEventListener('click',agregar);
