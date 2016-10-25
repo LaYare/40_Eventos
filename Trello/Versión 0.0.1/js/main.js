@@ -23,7 +23,7 @@ function poner(){
   var h4 = document.createElement('h4');
   botonDos.className = 'btn btn-success unem'
   contenido.appendChild(tarea);
-  tarea.className='amarilla text-center';
+  tarea.className='amarilla text-center caja unem';
   tarea.appendChild(h4);
   tarea.appendChild(inputDos);
   tarea.appendChild(botonDos);
